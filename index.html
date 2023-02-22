@@ -6,54 +6,14 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
 </head>
-<style>
-.sign-button{
-      background-color:rgb(34, 111, 226); 
-      color:black;
-      border:none;
-      height:36px;
-      width:300px;
-      border-radius:2px;
-      cursor:pointer;
-      margin-right:10px;
-      font-size: large;
-    }
-    .login-button{
-      background-color:rgb(8, 113, 233); 
-      color:black;
-      border:none;
-      height:36px;
-      width:150px;
-      border-radius:2px;
-      font-weight: 200px;
-      font-size: larger;
-      margin-right:10px;
-    }
-    .form-style{
-        float:right;
-        align-items: center;
-        justify-items: center;
-        margin-right:342px ;
-        height: 368px;
-        font-weight: 200;
-        color: red;
-        
-    
-        
-    }
-    body{
-        background-color: rgb(210, 210, 224);
-    }
-    .image{
-        height: 400px;
-    }
-    .image2{
-        height: 15px;
-    }
-</style>
+<link rel="stylesheet" href="style.css">
 <body> 
-    <img  class="image"src ="image/image.avif" alt="picture">
-    <Form class="form-style">
+    <div class="container">
+       <div class="image">
+    <img src ="image/image.avif" alt="picture">
+</div > 
+<div class="form-style">
+    <Form>
     <h1>Hey, hello! <span class="wave">👋</span></h1>
     <label>Don't have an account?<br><a id="Signup" href="sign.html">Signup</a>
     </label>
@@ -80,5 +40,7 @@
     <img  class="image2"src="image/google.png" alt="picture">
     <button class="sign-button">sign in with google</button>
 </form>
+</div>
+    </div>
 </body>
 </html>
